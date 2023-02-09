@@ -344,7 +344,7 @@
           margin: 0;
           --underline-space: 1.2rem;
                 background-color: hsl( var(--cl-white)/ 0.08);
-                backdrop-filter: blur(1.6rem);
+                backdrop-filter: blur(1.8rem);
                 /* background-color: aqua; */
           }
           
@@ -375,12 +375,12 @@
            }
 
           
-            /* @supports (backdrop-filter: blur(1rem)){
+            @supports (backdrop-filter: blur(1rem)){
                   .first-nav{
-                    background-color: hsl( var(--cl-dark) / 0..05 );
-                      backdrop-filter: blur(1.5rem);
+                    background-color: hsl( var(--cl-dark) / 0.05 );
+                      backdrop-filter: blur(1.8rem);
                   }
-            } */
+            }
 
 
     @media (max-width: 35rem) {
