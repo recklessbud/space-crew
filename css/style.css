@@ -343,8 +343,9 @@
           padding: 0;
           margin: 0;
           --underline-space: 1.2rem;
-                background-color: hsl( var(--cl-white)/ 0.05);
+                background-color: hsl( var(--cl-white)/ 0.08);
                 backdrop-filter: blur(1.6rem);
+                /* background-color: aqua; */
           }
           
           .first-nav a{
@@ -547,8 +548,7 @@
       }
 
 
-
-
+  
 
       /* ------------------- */
         /* Page specs  images */
@@ -617,6 +617,7 @@
         place-items: center;
         padding-inline: 1rem;
         padding-bottom: 5rem;
+        
       }
     
    /* destination layout */
@@ -670,7 +671,7 @@
                     'title'
                     'image'
                     'tabs'
-                    'content';
+                    'content';  
               }
                   
                 .grid-squad picture{
